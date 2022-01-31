@@ -17,8 +17,10 @@ Project is created with:
 * CSS3
 	
 ## Setup
-To run this project locally you just need to clone the repository to your local machine and then launch it using any browser
+To run this project locally you just need to clone the repository to your local machine and then launch it using any browser.
+
+## Licence
+The theme is available as open source under the terms of the MIT License.
 
 ## Contact
 Created by @vincentarisa - feel free to contact me.
-
