@@ -1,5 +1,5 @@
 # Personal Portfolio Website 
-https://img.shields.io/github/license/juniordevske/Personal-Portfolio-Website?style=plastic
+![GitHub](https://img.shields.io/github/license/juniordevske/Personal-Portfolio-Website?style=plastic)
 
 This is an example personal website that students of my class can refer to when creating their own practice projects. This project mainly focuses on the frontend design
 
