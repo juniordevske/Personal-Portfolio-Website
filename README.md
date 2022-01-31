@@ -9,7 +9,7 @@ This is an example personal website that students of my class can refer to when 
 * [Setup](#setup)
 
 ## General info
-This is a practice project and it is nt created for commercial use.
+This is a practice project and it is not created for commercial use.
 	
 ## Technologies
 Project is created with:
