@@ -15,6 +15,7 @@ This is a practice project and it is not created for commercial use.
 Project is created with:
 * HTML5
 * CSS3
+* Bootstrap Version 5.1
 	
 ## Setup
 To run this project locally you just need to clone the repository to your local machine and then launch it using any browser.
