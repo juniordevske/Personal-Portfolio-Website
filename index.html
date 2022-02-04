@@ -21,7 +21,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </head>
 
-    <body style="background-color: #eaecf0;">
+    <body style="background-color: #eaecf0;" class="diagonal-section">
         <!--Navigation Bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light box-shadow shadow-lg sticky-top custom-nav">
             <div class="container-fluid">
@@ -37,13 +37,13 @@
                         <li class="nav-item"><a href="#home" class="nav-link custom-btn" aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link custom-btn">Services</a></li>
                         <li class="nav-item"><a href="#skills" class="nav-link custom-btn">Skills</a></li>
-                        <li class="nav-item"><a href="#portfolio" class="nav-link custom-btn">Portfolio</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link custom-btn">Projects</a></li>
                         <li class="nav-item"><a href="resume.html" class="nav-link custom-btn">Resume</a></li>
                         <li class="nav-item"><a href="#contact" class="nav-link custom-btn">Contact</a></li>
                     </ul>
 
                     <!--Social Media Links-->
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills sm-text-center">
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-github"></i></a></li>
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-linkedin"></i></a></li>
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-stack-overflow"></i></a></li>
@@ -57,9 +57,9 @@
 
         <!--About Section-->
         <section>
-            <div class="header-intro py-5 text-white bg-dark diagonal-split-background" >
+            <div class="header-intro py-5 text-white bg-dark diagonal-background" >
                 <div class="container">
-                    <div class="row gx-lg-5 justify-content-center">
+                    <div class="row gx-lg-5 justify-content-center h-100">
                         <div class="col-12 col-md-auto text-center text-md-start">
                             <img class="profile-image mb-3 mb-lg-0 ms-md-0 rounded mx-auto" src="assets/images/profpic.jfif" alt="">
                         </div>
@@ -71,26 +71,37 @@
                                     I am a <strong>Full Stack Software Engineer</strong> Based in Nairobi, Kenya
                                     I has been the industry's standard dummy text ever since the 1500s, when an unknown printer
                                     took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                                    five
-                                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </p>
+                                <p class="lead">
+                                    I am a <strong>Full Stack Software Engineer</strong> Based in Nairobi, Kenya
+                                    I has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </p>
+                                <p class="lead">
+                                    I am a <strong>Full Stack Software Engineer</strong> Based in Nairobi, Kenya
+                                    I has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                 </p>
                             </div>
-                            <div class="text-center">
-                                <a class="btn btn-outline-light btn-sm" href="resume.html"><i class="bi-file-pdf"></i> Resume</a>
-                                <a class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#contactModal" data-bs-whatever="@vincentarisa@gmx.com"><i class="bi-briefcase"></i> Hire Me</a>
-                            </div>
                         </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-outline-light btn-sm" href="resume.html"><i class="bi-file-pdf"></i> Resume</a>
+                        <a class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi-briefcase"></i> Hire Me</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--Services Section-->
-        <section>
+        <section id="services">
             <div class="pt-5">
                 <h3 class="text-center">SERVICES</h3>
             </div>
-            <div class="container mb-5 pt-5 pb-5" id="services">
+            <div class="container mb-5 pt-5 pb-5">
                 <div class="accordion shadow-lg" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -208,12 +219,12 @@
         </section>
 
         <!--Skills Section-->
-        <section>
-            <div class="bg-white shadow-lg">
+        <section id="skills">
+            <div class="">
                 <div class="pt-5">
                     <h3 class="text-center">SKILLS</h3>
                 </div>
-                <div class="container pt-5 pb-5" id="skills">
+                <div class="container pt-5 pb-5">
                     <div class="section-intro mx-auto text-center mb-5 text-secondary">I have more than 5 years' experience building
                         rich
                         software applications for clients all over the world. Below is a quick overview of my main technical skill set
@@ -276,27 +287,43 @@
         </section> 
 
         <!--Portfolio Section-->
-        <section>
+        <section id="projects">
             <div class="pt-5">
-                <h3 class="text-center">PORTFOLIO</h3>
+                <h3 class="text-center">PROJECTS</h3>
             </div>
-            <div class="container pt-5 pb-5" id="portfolio">
+            <div class="container pt-5 pb-5">
                 <div class="row justify-content-md-center">
                     <div class="col-sm">
                         <div class="card shadow-lg">
-                            <img src="assets/images/medicalapp.jpg" class="card-img-top" alt="gene image">
-                            <div class="card-body">
+                            <div class="card-header pt-3 pb-3">
                                 <h5 class="card-title"><i class="bi-heart-pulse"></i> Medical App</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
+                            </div>
+                            <div>
+                                <img src="assets/images/medicalapp.jpg" class="card-img-top" alt="gene image">
+                            </div>
 
+                            <div class="card-body">
+                                <div class="pt-3 pb-3">
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                                
+                                <!--Project technology badges-->
+                                <div class="pb-3">
+                                    <span class="badge bg-secondary">React</span>
+                                    <span class="badge bg-warning">Django</span>
+                                    <span class="badge bg-success">SQL</span>
+                                </div>
+                                
                                 <!--Modal trigger button-->
-                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="bi-eye"></i> Read More
-                                </button>
-                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                <div class="pb-3">
+                                    <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <i class="bi-eye"></i> Read More
+                                    </button>
+                                    <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                </div>
                                 
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -338,20 +365,37 @@
                     
                     <div class="col-sm">
                         <div class="card shadow-lg">
-                            <img src="assets/images/quizapp.png" class="card-img-top" alt="gene image">
-                            <div class="card-body">
+                            <div class="card-header pt-3 pb-3">
                                 <h5 class="card-title"><i class="bi-question-diamond"></i> Quiz App</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-
+                            </div>
+                            <div>
+                                <img src="assets/images/quizapp.png" class="card-img-top" alt="quiz app image">
+                            </div>
+                        
+                            <div class="card-body">
+                                <div class="pt-3 pb-3">
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                        
+                                <!--Project technology badges-->
+                                <div class="pb-3">
+                                    <span class="badge bg-secondary">React</span>
+                                    <span class="badge bg-warning">Django</span>
+                                    <span class="badge bg-success">SQL</span>
+                                </div>
+                        
                                 <!--Modal trigger button-->
-                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="bi-eye"></i> Read More
-                                </button>
-                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
-                                
+                                <div class="pb-3">
+                                    <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <i class="bi-eye"></i> Read More
+                                    </button>
+                                    <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                </div>
+                        
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-scrollable">
@@ -363,19 +407,26 @@
                                             <div class="modal-body">
                                                 <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at
+                                                    lectus
                                                     nunc. Nullam molestie,
-                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a
+                                                    justo.
                                                     Praesent bibendum mattis
-                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui,
+                                                    efficitur
                                                     at sem vel, suscipit
-                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi
+                                                    euismod
                                                     consequat eu in dolor.
-                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed
+                                                    posuere
                                                     ligula. Phasellus
-                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus
+                                                    semper.
                                                     In egestas, elit sit
-                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus.
+                                                    Phasellus
                                                     blandit vel lacus
                                                     vitae dictum.
                                                 </p>
@@ -394,23 +445,37 @@
                 <div class="row justify-content-md-center mt-4" id="portfolio">
                     <div class="col-sm">
                         <div class="card shadow-lg">
-                            <div class="embed-responsive embed-responsive-16by9">
+                            <div class="card-header pt-3 pb-3">
+                                <h5 class="card-title"><i class="bi-distribute-horizontal"></i> Glioblastoma Gene Type Classification</h5>
+                            </div>
+                            <div>
                                 <img src="assets/images/gene.jpg" class="card-img-top" alt="gene image">
                             </div>
-
+                        
                             <div class="card-body">
-                                <h5 class="card-title"><i class="bi-distribute-horizontal"></i> Gene Classification</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content...
-                                </p>
-
+                                <div class="pt-3 pb-3">
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                        
+                                <!--Project technology badges-->
+                                <div class="pb-3">
+                                    <span class="badge bg-secondary">React</span>
+                                    <span class="badge bg-warning">Django</span>
+                                    <span class="badge bg-success">SQL</span>
+                                </div>
+                        
                                 <!--Modal trigger button-->
-                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="bi-eye"></i> Read More
-                                </button>
-                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
-                                
+                                <div class="pb-3">
+                                    <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <i class="bi-eye"></i> Read More
+                                    </button>
+                                    <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                </div>
+                        
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-scrollable">
@@ -422,19 +487,26 @@
                                             <div class="modal-body">
                                                 <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at
+                                                    lectus
                                                     nunc. Nullam molestie,
-                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a
+                                                    justo.
                                                     Praesent bibendum mattis
-                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui,
+                                                    efficitur
                                                     at sem vel, suscipit
-                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi
+                                                    euismod
                                                     consequat eu in dolor.
-                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed
+                                                    posuere
                                                     ligula. Phasellus
-                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus
+                                                    semper.
                                                     In egestas, elit sit
-                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus.
+                                                    Phasellus
                                                     blandit vel lacus
                                                     vitae dictum.
                                                 </p>
@@ -451,23 +523,37 @@
                     
                     <div class="col-sm">
                         <div class="card shadow-lg">
-                            <div class="embed-responsive embed-responsive-16by9">
+                            <div class="card-header pt-3 pb-3">
+                                <h5 class="card-title"><i class="bi-clipboard-heart"></i> Covid 19 Detection App</h5>
+                            </div>
+                            <div>
                                 <img src="assets/images/covid19.jpg" class="card-img-top" alt="gene image">
                             </div>
-
+                        
                             <div class="card-body">
-                                <h5 class="card-title"><i class="bi-clipboard-heart"></i> Covid 19 Detection</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-
+                                <div class="pt-3 pb-3">
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                        
+                                <!--Project technology badges-->
+                                <div class="pb-3">
+                                    <span class="badge bg-secondary">React</span>
+                                    <span class="badge bg-warning">Django</span>
+                                    <span class="badge bg-success">SQL</span>
+                                </div>
+                        
                                 <!--Modal trigger button-->
-                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="bi-eye"></i> Read More
-                                </button>
-                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
-                                
+                                <div class="pb-3">
+                                    <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <i class="bi-eye"></i> Read More
+                                    </button>
+                                    <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                </div>
+                        
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-scrollable">
@@ -479,19 +565,26 @@
                                             <div class="modal-body">
                                                 <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at
+                                                    lectus
                                                     nunc. Nullam molestie,
-                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a
+                                                    justo.
                                                     Praesent bibendum mattis
-                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui,
+                                                    efficitur
                                                     at sem vel, suscipit
-                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi
+                                                    euismod
                                                     consequat eu in dolor.
-                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed
+                                                    posuere
                                                     ligula. Phasellus
-                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus
+                                                    semper.
                                                     In egestas, elit sit
-                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus.
+                                                    Phasellus
                                                     blandit vel lacus
                                                     vitae dictum.
                                                 </p>
@@ -509,19 +602,25 @@
             </div>
         </section>
 
-        <section class="section-cta py-5 bg-dark text-white">
+        <section class="section-cta py-5 text-white shadow-lg" id="contact" style="background-color: #333333;">
             <div class="container">
                 <div class="text-center">
                     <img class="profile-small d-inline-block mx-auto rounded-circle mb-3" src="assets/images/profpic.jfif" alt="Profile pic">
                 </div>
                 <h3 class="section-title font-weight-bold text-center mb-2">Interested in hiring me for your project?</h3>
                 <div class="section-intro mx-auto text-center mb-3">
-                    Looking for an experienced software engineer to build your software products? Drop me an email below
+                    Looking for an experienced software engineer to build your software products? Whatsapp me or drop me an email below
                 </div>
 
+                <div class="text-center pt-3 pb-3">
+                    <a href="https://api.whatsapp.com/send?phone=254740237641" target="blank" class="btn btn-success"><i class="bi-whatsapp"></i> Whatsapp Me</a>
+                </div>
+                <div class="text-center pb-3">
+                    <span>or</span>
+                </div>
                 <div class="text-center">
-                    <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#contactModal"
-                        data-bs-whatever="@vincentarisa@gmx.com"><i class="bi-briefcase"></i> Hire Me
+                    <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        <i class="bi-envelope"></i> Email Me
                     </button>
                 </div>
                 
@@ -529,14 +628,14 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="contactModalLabel">New message</h5>
+                                <h5 class="modal-title text-dark" id="contactModalLabel">New Email</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <form>
                                     <div class="mb-3">
-                                        <label for="recipient-name" class="col-form-label text-dark">Recipient:</label>
-                                        <input type="text" class="form-control" id="recipient-name">
+                                        <label for="recipient-name" class="col-form-label text-dark">Email:</label>
+                                        <input type="text" class="form-control">
                                     </div>
 
                                     <div class="mb-3">
@@ -551,8 +650,7 @@
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Send message</button>
+                                <button type="button" class="btn btn-primary"><i class="bi-send"></i> Send Email</button>
                             </div>
                         </div>
                     </div>
@@ -572,23 +670,3 @@
         </footer>
     </body>
 </html>
-
-<script>
-    var contactModal = document.getElementById('contactModal')
-        contactModal.addEventListener('show.bs.modal', function (event) {
-            // Button that triggered the modal
-            var button = event.relatedTarget
-            // Extract info from data-bs-* attributes
-            var recipient = button.getAttribute('data-bs-whatever')
-            // If necessary, you could initiate an AJAX request here
-            // and then do the updating in a callback.
-            //
-            // Update the modal's content.
-            var modalTitle = contactModal.querySelector('.modal-title')
-            var modalBodyInput = contactModal.querySelector('.modal-body input')
-
-            modalTitle.textContent = 'New message to ' + recipient
-            modalBodyInput.value = recipient
-        })
-
-</script>
