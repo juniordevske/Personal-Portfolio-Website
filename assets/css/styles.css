@@ -17,3 +17,7 @@
 .custom-nav{
     font-size: 20px;
 }
+
+.btn,.navbar-toggler{
+	box-shadow: none !important
+}
