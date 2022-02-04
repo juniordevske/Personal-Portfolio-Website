@@ -23,11 +23,26 @@
 
     <body style="background-color: #eaecf0;">
         <!--Navigation Bar-->
-        <nav class="sticky-top">
-            <div class="container-fluid bg-white border-bottom bg-success box-shadow custom-nav">
-                <header class="d-flex flex-wrap justify-content-center py-1 mb-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light box-shadow shadow-lg sticky-top custom-nav">
+            <div class="container-fluid">
+                <div class="pt-2 pb-2">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--Navigation Menu-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2 pb-2">
+                        <li class="nav-item"><a href="#home" class="nav-link custom-btn" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link custom-btn">Services</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link custom-btn">Skills</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link custom-btn">Portfolio</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link custom-btn">Contact</a></li>
+                    </ul>
+
                     <!--Social Media Links-->
-                    <ul class="nav col-md  list-unstyled d-flex pt-2">
+                    <ul class="nav nav-pills">
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-github"></i></a></li>
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-linkedin"></i></a></li>
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-stack-overflow"></i></a></li>
@@ -35,16 +50,7 @@
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-twitter"></i></a></li>
                         <li class="ms-3"><a class="text-muted" href="#"><i class="bi-instagram"></i></a></li>
                     </ul>
-        
-                    <!--Navigation Menu-->
-                    <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#home" class="nav-link custom-btn" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="#services" class="nav-link custom-btn">Services</a></li>
-                        <li class="nav-item"><a href="#skills" class="nav-link custom-btn">Skills</a></li>
-                        <li class="nav-item"><a href="#portfolio" class="nav-link custom-btn">Portfolio</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link custom-btn">Contact</a></li>
-                    </ul>
-                </header>
+                </div>
             </div>
         </nav>
 
@@ -445,7 +451,7 @@
 
                 <div class="text-center">
                     <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#contactModal"
-                        data-bs-whatever="@vincentarisa@gmx.com"><i class="bi-send"></i> Email Me
+                        data-bs-whatever="@vincentarisa@gmx.com"><i class="bi-briefcase"></i> Hire Me
                     </button>
                 </div>
                 
