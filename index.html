@@ -57,7 +57,7 @@
 
         <!--About Section-->
         <section>
-            <div class="header-intro py-5 text-white" style="background-color: #112d32;">
+            <div class="header-intro py-5 text-white bg-dark diagonal-split-background" >
                 <div class="container">
                     <div class="row gx-lg-5 justify-content-center">
                         <div class="col-12 col-md-auto text-center text-md-start">
@@ -76,7 +76,8 @@
                                 </p>
                             </div>
                             <div class="text-center">
-                                <a class="btn btn-outline-light btn-sm" href="#contact"><i class="bi-briefcase"></i> Hire Me</a>
+                                <a class="btn btn-outline-light btn-sm" href="resume.html"><i class="bi-file-pdf"></i> Resume</a>
+                                <a class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#contactModal" data-bs-whatever="@vincentarisa@gmx.com"><i class="bi-briefcase"></i> Hire Me</a>
                             </div>
                         </div>
                     </div>
@@ -208,7 +209,7 @@
 
         <!--Skills Section-->
         <section>
-            <div class="bg-white">
+            <div class="bg-white shadow-lg">
                 <div class="pt-5">
                     <h3 class="text-center">SKILLS</h3>
                 </div>
@@ -286,13 +287,16 @@
                             <img src="assets/images/medicalapp.jpg" class="card-img-top" alt="gene image">
                             <div class="card-body">
                                 <h5 class="card-title"><i class="bi-heart-pulse"></i> Medical App</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
                                     content.
                                 </p>
+
                                 <!--Modal trigger button-->
                                 <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="bi-book"></i> Read More
+                                    <i class="bi-eye"></i> Read More
                                 </button>
+                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
                                 
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -337,10 +341,51 @@
                             <img src="assets/images/quizapp.png" class="card-img-top" alt="gene image">
                             <div class="card-body">
                                 <h5 class="card-title"><i class="bi-question-diamond"></i> Quiz App</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
                                     content.
                                 </p>
-                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi-book"></i> Read More</a>
+
+                                <!--Modal trigger button-->
+                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="bi-eye"></i> Read More
+                                </button>
+                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><i class="bi-heart-pulse"></i> Medical App</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    nunc. Nullam molestie,
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    Praesent bibendum mattis
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    at sem vel, suscipit
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    consequat eu in dolor.
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    ligula. Phasellus
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    In egestas, elit sit
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    blandit vel lacus
+                                                    vitae dictum.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -355,10 +400,51 @@
 
                             <div class="card-body">
                                 <h5 class="card-title"><i class="bi-distribute-horizontal"></i> Gene Classification</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
+                                    content...
                                 </p>
-                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi-book"></i> Read More</a>
+
+                                <!--Modal trigger button-->
+                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="bi-eye"></i> Read More
+                                </button>
+                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><i class="bi-heart-pulse"></i> Medical App</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    nunc. Nullam molestie,
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    Praesent bibendum mattis
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    at sem vel, suscipit
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    consequat eu in dolor.
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    ligula. Phasellus
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    In egestas, elit sit
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    blandit vel lacus
+                                                    vitae dictum.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -371,71 +457,54 @@
 
                             <div class="card-body">
                                 <h5 class="card-title"><i class="bi-clipboard-heart"></i> Covid 19 Detection</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
                                     content.
                                 </p>
-                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi-book"></i> Read More</a>
+
+                                <!--Modal trigger button-->
+                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="bi-eye"></i> Read More
+                                </button>
+                                <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi-github"></i> View on Github</a>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><i class="bi-heart-pulse"></i> Medical App</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="assets/images/medicalapp.jpg" class="img-thumbnail" alt="medical app image">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et vulputate sem. Nunc at lectus
+                                                    nunc. Nullam molestie,
+                                                    mauris sit amet vehicula dignissim, justo orci imperdiet enim, sed ultricies nisl nisi a justo.
+                                                    Praesent bibendum mattis
+                                                    lacus vitae luctus. Proin quis ultricies urna, at eleifend eros. Suspendisse sapien dui, efficitur
+                                                    at sem vel, suscipit
+                                                    pretium lorem. Praesent ac erat a tellus gravida viverra. Maecenas at nunc hendrerit nisi euismod
+                                                    consequat eu in dolor.
+                                                    Vivamus iaculis lectus ac massa volutpat vestibulum. Donec sed lobortis nunc. Maecenas sed posuere
+                                                    ligula. Phasellus
+                                                    bibendum erat at lacus rhoncus placerat. Proin ac rhoncus tortor. Aliquam venenatis maximus semper.
+                                                    In egestas, elit sit
+                                                    amet lobortis scelerisque, turpis eros mollis sapien, quis sodales velit dui non lacus. Phasellus
+                                                    blandit vel lacus
+                                                    vitae dictum.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="pt-5">
-                <h4 class="text-center">PROJECT DETAILS</h4>
-            </div>
-            <div class="bg-white pt-5 pb-5">
-                <div class="container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Project</th>
-                                <th>Start Date</th>
-                                <th>End Date</th>
-                                <th>Duration</th>
-                                <th>Github Link</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Medical App</td>
-                                <td>05 Jan 2020</td>
-                                <td>16 Sep 2020</td>
-                                <td>6 Months</td>
-                                <td><a href="#" class="btn btn-outline-dark btn-sm justify-content-center text-center"><i
-                                            class="bi-github"></i> View on Github</a></td>
-                            </tr>
-            
-                            <tr>
-                                <td>Quiz App</td>
-                                <td>05 Jan 2020</td>
-                                <td>16 Sep 2020</td>
-                                <td>6 Months</td>
-                                <td><a href="#" class="btn btn-outline-dark btn-sm justify-content-center text-center"><i
-                                            class="bi-github"></i> View on Github</a></td>
-                            </tr>
-            
-                            <tr>
-                                <td>Gene Classification</td>
-                                <td>05 Jan 2020</td>
-                                <td>16 Sep 2020</td>
-                                <td>6 Months</td>
-                                <td><a href="#" class="btn btn-outline-dark btn-sm justify-content-center text-center"><i
-                                            class="bi-github"></i> View on Github</a></td>
-                            </tr>
-            
-                            <tr>
-                                <td>Covid 19 Detection</td>
-                                <td>05 Jan 2020</td>
-                                <td>16 Sep 2020</td>
-                                <td>6 Months</td>
-                                <td><a href="#" class="btn btn-outline-dark btn-sm justify-content-center text-center"><i
-                                            class="bi-github"></i> View on Github</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </section>
