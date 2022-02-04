@@ -21,3 +21,7 @@
 .btn,.navbar-toggler{
 	box-shadow: none !important
 }
+
+.diagonal-split-background{
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+}
