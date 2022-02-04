@@ -1,0 +1,19 @@
+.card-img-top 
+{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.custom-btn{
+    color: #112d32 !important
+}
+
+.custom-btn:hover{
+    color: #3AAFA9 !important;
+    text-decoration: underline !important;
+}
+
+.custom-nav{
+    font-size: 20px;
+}
